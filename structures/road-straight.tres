@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://b4tgtg0j2dgh8" path="res://models/road-straight.glb" id="1_ump1f"]
 
 [resource]
+resource_name = "road-straight"
 script = ExtResource("1_5fmmh")
 Model = ExtResource("1_ump1f")
 Price = 70

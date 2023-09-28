@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="2_3eq5k"]
 
 [resource]
+resource_name = "road-intersection"
 script = ExtResource("2_3eq5k")
-_modelResource = ExtResource("1_pnjl2")
+Model = ExtResource("1_pnjl2")
 Price = 70

@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="2_a2t3e"]
 
 [resource]
+resource_name = "building-small-b"
 script = ExtResource("2_a2t3e")
-_modelResource = ExtResource("1_klt7o")
+Model = ExtResource("1_klt7o")
 Price = 70

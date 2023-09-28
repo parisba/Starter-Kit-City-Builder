@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="3_oloyn"]
 
 [resource]
+resource_name = "road-corner"
 script = ExtResource("3_oloyn")
-_modelResource = ExtResource("1_r8n8k")
+Model = ExtResource("1_r8n8k")
 Price = 70

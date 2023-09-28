@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public partial class Builder : Node3D
 {
     [Export]
-    public Godot.Collections.Array<Structure> Structures = new Godot.Collections.Array<Structure>();
+	public Godot.Collections.Array<Structure> Structures = new Godot.Collections.Array<Structure>();
 
     private DataMap Map;
 
@@ -40,10 +40,10 @@ public partial class Builder : Node3D
         {
             var id = meshLibrary.GetLastUnusedItemId();
 
-
             meshLibrary.CreateItem(id);
+        
             meshLibrary.SetItemMesh(id, GetMesh(structure.Model));
-            meshLibrary.SetItemMeshTransform(id, new Transform3D());
+            //meshLibrary.SetItemMeshTransform(id, new Transform3D());
         }
 
         Gridmap.MeshLibrary = meshLibrary;
@@ -89,13 +89,8 @@ public partial class Builder : Node3D
                     var propName = sceneState.GetNodePropertyName(i, j);
                     if (propName == "mesh")
                     {
-						GD.Print("inside GetMesh if");
-                        var propValue = sceneState.GetNodePropertyValue(i, j);
-
-						var theMesh = sceneState.GetNodePropertyValue(i, j).As<Mesh>();
-						var newMesh = theMesh.Duplicate();				
-                    	return (Mesh)newMesh;
-						//return (propValue as Mesh).Duplicate();
+						var mesh = sceneState.GetNodePropertyValue(i, j).As<Mesh>();
+                    	return (Mesh)(mesh.Duplicate());
                     }
                 }
             }

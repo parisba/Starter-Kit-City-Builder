@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="2_b2sah"]
 
 [resource]
+resource_name = "grass-trees-tall"
 script = ExtResource("2_b2sah")
-_modelResource = ExtResource("1_nbdd1")
+Model = ExtResource("1_nbdd1")
 Price = 70

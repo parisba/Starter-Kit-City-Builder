@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="2_i48go"]
 
 [resource]
+resource_name = "pavement"
 script = ExtResource("2_i48go")
-_modelResource = ExtResource("1_gudnj")
+Model = ExtResource("1_gudnj")
 Price = 70

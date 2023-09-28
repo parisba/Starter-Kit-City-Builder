@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="2_xa71m"]
 
 [resource]
+resource_name = "road-split"
 script = ExtResource("2_xa71m")
-_modelResource = ExtResource("1_ku0rj")
+Model = ExtResource("1_ku0rj")
 Price = 70

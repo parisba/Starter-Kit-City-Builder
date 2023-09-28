@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Structure.cs" id="2_pnpij"]
 
 [resource]
+resource_name = "grass-trees"
 script = ExtResource("2_pnpij")
-_modelResource = ExtResource("1_lcgc1")
+Model = ExtResource("1_lcgc1")
 Price = 70
