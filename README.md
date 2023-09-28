@@ -1,14 +1,22 @@
 <p align="center"><img src="icon.png"/></p>
 
-# Starter Kit City Builder
+# C# Starter Kit City Builder
 
-This package includes a basic template for a 3D city builder in Godot 4.1.1.stable.official. Includes features like;
+This package includes a basic template for a 3D city builder programrmed in C# using Godot 4.1.1.stable.official. 
+
+Includes features like;
 
 - Building and removing structures
 - Smooth camera controls
 - Dynamic MeshLibrary creation
 - Saving/loading
 - Sprites and 3D Models _(CC0 licensed)_
+
+This C# version is written by [@parisba](https://twitter.com/parisba) from [Secret Lab](https://secretlab.games) and [Yarn Spinner](https://yarnspinner.dev), with help from [Mars Buttfield-Addison](https://themartianlife.com), [Tim Nugent](https://twitter.com/the_mcjones), and [Jon Manning](https://twitter.com/desplesda). 
+
+It's entirely based on [Kenney's version](https://github.com/KenneyNL/Starter-Kit-3D-Platformer), updated to use C#. It's currently just a quick port, but I'll clean it up over the coming weeks.
+
+We're currently writing a book on [building games in Godot with C#, sign-up for updates here](http://secretlab.games/books/godot).
 
 ### Screenshot
 
@@ -31,7 +39,9 @@ This package includes a basic template for a 3D city builder in Godot 4.1.1.stab
 
 MIT License
 
-Copyright (c) 2023 Kenney
+Copyright (c) 2023 Kenney (GDScript Version, Assets, Design)
+
+Copyright (c) 2023 [Paris Buttfield-Addison](https://twitter.com/parisba)/[Secret Lab Pty. Ltd.](https://secretlab.games) (C# Version)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
