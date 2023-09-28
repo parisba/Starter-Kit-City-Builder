@@ -1,0 +1,49 @@
+[gd_scene load_steps=16 format=3 uid="uid://cd2u43083m2ri"]
+
+[ext_resource type="PackedScene" uid="uid://d0nnrx2y4px2v" path="res://models/building-garage.glb" id="1_b6e17"]
+[ext_resource type="PackedScene" uid="uid://cnycdi6t5tj01" path="res://models/building-small-a.glb" id="2_nxgb5"]
+[ext_resource type="PackedScene" uid="uid://d2h51qlls136h" path="res://models/building-small-b.glb" id="3_q1abl"]
+[ext_resource type="PackedScene" uid="uid://m74mvao50wnm" path="res://models/building-small-c.glb" id="4_n77j2"]
+[ext_resource type="PackedScene" uid="uid://h0vrvst3cumo" path="res://models/building-small-d.glb" id="5_wnjuw"]
+[ext_resource type="PackedScene" uid="uid://dy26b1ba2j2v1" path="res://models/grass-trees-tall.glb" id="6_014ji"]
+[ext_resource type="PackedScene" uid="uid://b1711sieed2u6" path="res://models/grass-trees.glb" id="7_ol06j"]
+[ext_resource type="PackedScene" uid="uid://cr3btp34bp3eg" path="res://models/grass.glb" id="8_qsb38"]
+[ext_resource type="PackedScene" uid="uid://6v0t536s83vb" path="res://models/pavement-fountain.glb" id="9_1jugg"]
+[ext_resource type="PackedScene" uid="uid://cpv75mfsda1ml" path="res://models/pavement.glb" id="10_jdnbv"]
+[ext_resource type="PackedScene" uid="uid://c4ccm2qr5wa58" path="res://models/road-corner.glb" id="11_j5yth"]
+[ext_resource type="PackedScene" uid="uid://euxdh7lkq0oj" path="res://models/road-intersection.glb" id="12_3hqw3"]
+[ext_resource type="PackedScene" uid="uid://mu30r6rmht07" path="res://models/road-split.glb" id="13_itflf"]
+[ext_resource type="PackedScene" uid="uid://5kchntr735l" path="res://models/road-straight-lightposts.glb" id="14_x5dl7"]
+[ext_resource type="PackedScene" uid="uid://b4tgtg0j2dgh8" path="res://models/road-straight.glb" id="15_6upv6"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="building-garage" parent="." instance=ExtResource("1_b6e17")]
+
+[node name="building-small-a" parent="." instance=ExtResource("2_nxgb5")]
+
+[node name="building-small-b" parent="." instance=ExtResource("3_q1abl")]
+
+[node name="building-small-c" parent="." instance=ExtResource("4_n77j2")]
+
+[node name="building-small-d" parent="." instance=ExtResource("5_wnjuw")]
+
+[node name="grass-trees-tall" parent="." instance=ExtResource("6_014ji")]
+
+[node name="grass-trees" parent="." instance=ExtResource("7_ol06j")]
+
+[node name="grass" parent="." instance=ExtResource("8_qsb38")]
+
+[node name="pavement-fountain" parent="." instance=ExtResource("9_1jugg")]
+
+[node name="pavement" parent="." instance=ExtResource("10_jdnbv")]
+
+[node name="road-corner" parent="." instance=ExtResource("11_j5yth")]
+
+[node name="road-intersection" parent="." instance=ExtResource("12_3hqw3")]
+
+[node name="road-split" parent="." instance=ExtResource("13_itflf")]
+
+[node name="road-straight-lightposts" parent="." instance=ExtResource("14_x5dl7")]
+
+[node name="road-straight" parent="." instance=ExtResource("15_6upv6")]
